@@ -13,185 +13,612 @@
         ]
     },
     "menu_alias":[
-
-        { "image": "/ISOs/Desktop/antiX-23.2_x64-full.iso",                                     "alias": "AntiX" },
-        { "image": "/ISOs/Desktop/archlinux-2025.05.01-x86_64.iso",                             "alias": "Arch Linux" },
-        { "image": "/ISOs/Desktop/cachyos-desktop-linux-250422.iso",                            "alias": "CachyOS" },
-        { "image": "/ISOs/Desktop/debian-12.10.0-amd64-DVD-1.iso",                              "alias": "Debian" },
-        { "image": "/ISOs/Desktop/EndeavourOS_Mercury-Neo-2025.03.19.iso",                      "alias": "EndeavourOS" },
-        { "image": "/ISOs/Desktop/Fedora-KDE-Desktop-Live-x86_64-42-1.1.iso",                   "alias": "Fedora KDE" },
-        { "image": "/ISOs/Desktop/Fedora-Workstation-Live-x86_64-42-1.1.iso",                   "alias": "Fedora GNOME" },
-        { "image": "/ISOs/Desktop/garuda-hyprland-linux-zen-250308.iso",                        "alias": "Garuda Hyprland" },
-        { "image": "/ISOs/Desktop/garuda-mokka-linux-zen-250308.iso",                           "alias": "Garuda Mokka" },
-        { "image": "/ISOs/Desktop/gentoo-livegui-amd64-20250429T205022Z.iso",                   "alias": "Gentoo" },
-        { "image": "/ISOs/Desktop/kubuntu-25.04-desktop-amd64.iso",                             "alias": "Kubuntu" },
-        { "image": "/ISOs/Desktop/linuxmint-22.1-cinnamon-64bit.iso",                           "alias": "Linux Mint Cinnamon" },
-        { "image": "/ISOs/Desktop/manjaro-kde-25.0.0-250414-linux612.iso",                      "alias": "Manjaro KDE" },
-        { "image": "/ISOs/Desktop/nixos-gnome-24.11.717738.iso",                                "alias": "NixOS GNOME" },
-        { "image": "/ISOs/Desktop/nixos-plasma6-24.11.717738.iso",                              "alias": "NixOS KDE" },
-        { "image": "/ISOs/Desktop/Nobara-41-Official-2025-02-20.iso",                           "alias": "Nobara" },
-        { "image": "/ISOs/Desktop/openSUSE-Tumbleweed-20250505.iso",                            "alias": "OpenSUSE Tumbleweed" },
-        { "image": "/ISOs/Desktop/pop-os_22.04_amd64_intel_52.iso",                             "alias": "Pop!_OS" },
-        { "image": "/ISOs/Desktop/ubuntu-25.04-desktop-amd64.iso",                              "alias": "Ubuntu" },
-        { "image": "/ISOs/Desktop/Zorin-OS-17.3-Core-64-bit-r1.iso",                            "alias": "Zorin OS" },
-
-        { "image": "/ISOs/Enterprise/AlmaLinux-9.5-x86_64-dvd.iso",                             "alias": "AlmaLinux 9.5" },
-        { "image": "/ISOs/Enterprise/alpine-extended-3.21.3-x86_64.iso",                        "alias": "Alpine Linux 3.21.3" },
-        { "image": "/ISOs/Enterprise/CentOS-Stream-10-latest-x86_64-dvd1.iso",                  "alias": "CentOS Stream 10" },
-        { "image": "/ISOs/Enterprise/Fedora-Server-dvd-x86_64-42-1.1.iso",                      "alias": "Fedora Server 42" },
-        { "image": "/ISOs/Enterprise/openSUSE-Leap-15.6-DVD-x86_64-Build710.3-Media.iso",       "alias": "OpenSUSE Leap 15.6" },
-        { "image": "/ISOs/Enterprise/OracleLinux-R9-U5-x86_64-dvd.iso",                         "alias": "Oracle Linux 9 U5" },
-        { "image": "/ISOs/Enterprise/Rocky-9.5-x86_64-dvd.iso",                                 "alias": "Rocky Linux 9.5" },
-        { "image": "/ISOs/Enterprise/ubuntu-25.04-live-server-amd64.iso",                       "alias": "Ubuntu Server 25.04" },
-
-        { "image": "/ISOs/Handheld/bazzite-deck-stable-amd64.iso",                              "alias": "Bazzite" },
-        { "image": "/ISOs/Handheld/cachyos-handheld-linux-250422.iso",                          "alias": "CachyOS Handheld" },
-        { "image": "/ISOs/Handheld/chimeraos-2025.02.13-x86_64.iso",                            "alias": "ChimeraOS" },
-        { "image": "/ISOs/Handheld/holoiso_rel_snapshot20240603.iso",                           "alias": "HoloISO" },
-        { "image": "/ISOs/Handheld/Nobara-41-Steam-HTPC-2025-02-20.iso",                        "alias": "Nobara HTPC" },
-
-        { "image": "/ISOs/Security/blackarch-linux-slim-2023.05.01-x86_64.iso",                 "alias": "BlackArch" },
-        { "image": "/ISOs/Security/kali-linux-2025.1c-live-amd64.iso",                          "alias": "Kali Linux" },
-        { "image": "/ISOs/Security/Parrot-security-6.3.2_amd64.iso",                            "alias": "Parrot Security" },
-        { "image": "/ISOs/Security/tails-amd64-6.15.iso",                                       "alias": "Tails" },
-
-        { "image": "/ISOs/Storage/EasyNAS.ix86-1.1.2-0.install.iso",                            "alias": "EasyNAS" },
-        { "image": "/ISOs/Storage/openmediavault_7.4.17-amd64.iso",                             "alias": "OpenMediaVault" },
-        { "image": "/ISOs/Storage/TrueNAS-13.0-U6.7.iso",                                       "alias": "TrueNAS CORE 13.0" },
-        { "image": "/ISOs/Storage/TrueNAS-SCALE-25.04.0.iso",                                   "alias": "TrueNAS SCALE 25.04" },
-
-        { "image": "/ISOs/Utilities/clonezilla-live-20250504-plucky-amd64.iso",                 "alias": "Clonezilla Live" },
-        { "image": "/ISOs/Utilities/gparted-live-1.7.0-1-amd64.iso",                            "alias": "GParted Live" },
-        { "image": "/ISOs/Utilities/HBCD_PE_x64.iso",                                           "alias": "Hiren’s BootCD PE" },
-        { "image": "/ISOs/Utilities/mt86plus_7.20_64.iso",                                      "alias": "Memtest86+" },
-        { "image": "/ISOs/Utilities/systemrescue-12.00-amd64.iso",                              "alias": "SystemRescue" },
-        { "image": "/ISOs/Utilities/ubcd539.iso",                                               "alias": "Ultimate Boot CD" },
-
-        { "image": "/ISOs/Windows/tiny10-x64-23h2.iso",                                         "alias": "Windows Tiny 10" },
-        { "image": "/ISOs/Windows/tiny11-2311-x64.iso",                                         "alias": "Windows Tiny 11" },
-
-        { "dir": "/ISOs/Desktop",                                                               "alias": "Linux Desktop" },
-        { "dir": "/ISOs/Enterprise",                                                            "alias": "Linux Enterprise" },
-        { "dir": "/ISOs/Handheld",                                                              "alias": "Linux Handheld" },
-        { "dir": "/ISOs/Security",                                                              "alias": "Linux Pentesting" },
-        { "dir": "/ISOs/Storage",                                                               "alias": "Storage Appliances" },
-        { "dir": "/ISOs/Utilities",                                                             "alias": "Utilities" },
-        { "dir": "/ISOs/Windows",                                                               "alias": "Windows" }
+        {
+            "image": "/ISOs/Desktop/antiX-23.2_x64-full.iso",
+            "alias": "AntiX"
+        },
+        {
+            "image": "/ISOs/Desktop/archlinux-2025.05.01-x86_64.iso",
+            "alias": "Arch Linux"
+        },
+        {
+            "image": "/ISOs/Desktop/cachyos-desktop-linux-250422.iso",
+            "alias": "CachyOS"
+        },
+        {
+            "image": "/ISOs/Desktop/debian-12.10.0-amd64-DVD-1.iso",
+            "alias": "Debian"
+        },
+        {
+            "image": "/ISOs/Desktop/EndeavourOS_Mercury-Neo-2025.03.19.iso",
+            "alias": "EndeavourOS"
+        },
+        {
+            "image": "/ISOs/Desktop/Fedora-KDE-Desktop-Live-x86_64-42-1.1.iso",
+            "alias": "Fedora KDE"
+        },
+        {
+            "image": "/ISOs/Desktop/Fedora-Workstation-Live-x86_64-42-1.1.iso",
+            "alias": "Fedora GNOME"
+        },
+        {
+            "image": "/ISOs/Desktop/garuda-hyprland-linux-zen-250308.iso",
+            "alias": "Garuda Hyprland"
+        },
+        {
+            "image": "/ISOs/Desktop/garuda-mokka-linux-zen-250308.iso",
+            "alias": "Garuda Mokka"
+        },
+        {
+            "image": "/ISOs/Desktop/gentoo-livegui-amd64-20250429T205022Z.iso",
+            "alias": "Gentoo"
+        },
+        {
+            "image": "/ISOs/Desktop/kubuntu-25.04-desktop-amd64.iso",
+            "alias": "Kubuntu"
+        },
+        {
+            "image": "/ISOs/Desktop/linuxmint-22.1-cinnamon-64bit.iso",
+            "alias": "Linux Mint Cinnamon"
+        },
+        {
+            "image": "/ISOs/Desktop/manjaro-kde-25.0.0-250414-linux612.iso",
+            "alias": "Manjaro KDE"
+        },
+        {
+            "image": "/ISOs/Desktop/nixos-gnome-24.11.717738.iso",
+            "alias": "NixOS GNOME"
+        },
+        {
+            "image": "/ISOs/Desktop/nixos-plasma6-24.11.717738.iso",
+            "alias": "NixOS KDE"
+        },
+        {
+            "image": "/ISOs/Desktop/Nobara-41-Official-2025-02-20.iso",
+            "alias": "Nobara"
+        },
+        {
+            "image": "/ISOs/Desktop/openSUSE-Tumbleweed-20250505.iso",
+            "alias": "OpenSUSE Tumbleweed"
+        },
+        {
+            "image": "/ISOs/Desktop/pop-os_22.04_amd64_intel_52.iso",
+            "alias": "Pop!_OS"
+        },
+        {
+            "image": "/ISOs/Desktop/ubuntu-25.04-desktop-amd64.iso",
+            "alias": "Ubuntu"
+        },
+        {
+            "image": "/ISOs/Desktop/Zorin-OS-17.3-Core-64-bit-r1.iso",
+            "alias": "Zorin OS"
+        },
+        {
+            "image": "/ISOs/Enterprise/AlmaLinux-9.5-x86_64-dvd.iso",
+            "alias": "AlmaLinux 9.5"
+        },
+        {
+            "image": "/ISOs/Enterprise/alpine-extended-3.21.3-x86_64.iso",
+            "alias": "Alpine Linux 3.21.3"
+        },
+        {
+            "image": "/ISOs/Enterprise/CentOS-Stream-10-latest-x86_64-dvd1.iso",
+            "alias": "CentOS Stream 10"
+        },
+        {
+            "image": "/ISOs/Enterprise/Fedora-Server-dvd-x86_64-42-1.1.iso",
+            "alias": "Fedora Server 42"
+        },
+        {
+            "image": "/ISOs/Enterprise/openSUSE-Leap-15.6-DVD-x86_64-Build710.3-Media.iso",
+            "alias": "OpenSUSE Leap 15.6"
+        },
+        {
+            "image": "/ISOs/Enterprise/OracleLinux-R9-U5-x86_64-dvd.iso",
+            "alias": "Oracle Linux 9 U5"
+        },
+        {
+            "image": "/ISOs/Enterprise/Rocky-9.5-x86_64-dvd.iso",
+            "alias": "Rocky Linux 9.5"
+        },
+        {
+            "image": "/ISOs/Enterprise/ubuntu-25.04-live-server-amd64.iso",
+            "alias": "Ubuntu Server 25.04"
+        },
+        {
+            "image": "/ISOs/Handheld/bazzite-deck-stable-amd64.iso",
+            "alias": "Bazzite"
+        },
+        {
+            "image": "/ISOs/Handheld/cachyos-handheld-linux-250422.iso",
+            "alias": "CachyOS Handheld"
+        },
+        {
+            "image": "/ISOs/Handheld/chimeraos-2025.02.13-x86_64.iso",
+            "alias": "ChimeraOS"
+        },
+        {
+            "image": "/ISOs/Handheld/holoiso_rel_snapshot20240603.iso",
+            "alias": "HoloISO"
+        },
+        {
+            "image": "/ISOs/Handheld/Nobara-41-Steam-HTPC-2025-02-20.iso",
+            "alias": "Nobara HTPC"
+        },
+        {
+            "image": "/ISOs/Security/blackarch-linux-slim-2023.05.01-x86_64.iso",
+            "alias": "BlackArch"
+        },
+        {
+            "image": "/ISOs/Security/kali-linux-2025.1c-live-amd64.iso",
+            "alias": "Kali Linux"
+        },
+        {
+            "image": "/ISOs/Security/Parrot-security-6.3.2_amd64.iso",
+            "alias": "Parrot Security"
+        },
+        {
+            "image": "/ISOs/Security/tails-amd64-6.15.iso",
+            "alias": "Tails"
+        },
+        {
+            "image": "/ISOs/Storage/EasyNAS.ix86-1.1.2-0.install.iso",
+            "alias": "EasyNAS"
+        },
+        {
+            "image": "/ISOs/Storage/openmediavault_7.4.17-amd64.iso",
+            "alias": "OpenMediaVault"
+        },
+        {
+            "image": "/ISOs/Storage/TrueNAS-13.0-U6.7.iso",
+            "alias": "TrueNAS CORE 13.0"
+        },
+        {
+            "image": "/ISOs/Storage/TrueNAS-SCALE-25.04.0.iso",
+            "alias": "TrueNAS SCALE 25.04"
+        },
+        {
+            "image": "/ISOs/Utilities/clonezilla-live-20250504-plucky-amd64.iso",
+            "alias": "Clonezilla Live"
+        },
+        {
+            "image": "/ISOs/Utilities/gparted-live-1.7.0-1-amd64.iso",
+            "alias": "GParted Live"
+        },
+        {
+            "image": "/ISOs/Utilities/HBCD_PE_x64.iso",
+            "alias": "Hiren’s BootCD PE"
+        },
+        {
+            "image": "/ISOs/Utilities/mt86plus_7.20_64.iso",
+            "alias": "Memtest86+"
+        },
+        {
+            "image": "/ISOs/Utilities/systemrescue-12.00-amd64.iso",
+            "alias": "SystemRescue"
+        },
+        {
+            "image": "/ISOs/Utilities/ubcd539.iso",
+            "alias": "Ultimate Boot CD"
+        },
+        {
+            "image": "/ISOs/Windows/tiny10-x64-23h2.iso",
+            "alias": "Windows Tiny 10"
+        },
+        {
+            "image": "/ISOs/Windows/tiny11-2311-x64.iso",
+            "alias": "Windows Tiny 11"
+        },
+        {
+            "dir": "/ISOs/Desktop",
+            "alias": "Linux Desktop"
+        },
+        {
+            "dir": "/ISOs/Enterprise",
+            "alias": "Linux Enterprise"
+        },
+        {
+            "dir": "/ISOs/Handheld",
+            "alias": "Linux Handheld"
+        },
+        {
+            "dir": "/ISOs/Security",
+            "alias": "Linux Pentesting"
+        },
+        {
+            "dir": "/ISOs/Storage",
+            "alias": "Storage Appliances"
+        },
+        {
+            "dir": "/ISOs/Utilities",
+            "alias": "Utilities"
+        },
+        {
+            "dir": "/ISOs/Windows",
+            "alias": "Windows"
+        }
     ],
-    "menu_tip": {
-        "tips": [
-
-            { "image": "/ISOs/Desktop/antiX-23.2_x64-full.iso",                                 "tip": "AntiX: ultra‑light Debian desktop for old hardware." },
-            { "image": "/ISOs/Desktop/archlinux-2025.05.01-x86_64.iso",                         "tip": "Arch Linux: DIY rolling release with pacman and AUR." },
-            { "image": "/ISOs/Desktop/cachyos-desktop-linux-250422.iso",                        "tip": "CachyOS Desktop: Arch‑based optimized for performance." },
-            { "image": "/ISOs/Desktop/debian-12.10.0-amd64-DVD-1.iso",                          "tip": "Debian 12: stable, universal base for desktop and server." },
-            { "image": "/ISOs/Desktop/EndeavourOS_Mercury-Neo-2025.03.19.iso",                  "tip": "EndeavourOS: approachable installer for Arch beginners." },
-            { "image": "/ISOs/Desktop/Fedora-KDE-Desktop-Live-x86_64-42-1.1.iso",               "tip": "Fedora KDE: upstream source for Red Hat Enterprise Linux." },
-            { "image": "/ISOs/Desktop/Fedora-Workstation-Live-x86_64-42-1.1.iso",               "tip": "Fedora GNOME: upstream source for Red Hat Enterprise Linux." },
-            { "image": "/ISOs/Desktop/garuda-hyprland-linux-zen-250308.iso",                    "tip": "Garuda Hyprland: Dynamic tiling gaming spin on Arch Linux." },
-            { "image": "/ISOs/Desktop/garuda-mokka-linux-zen-250308.iso",                       "tip": "Garuda Mokka: KDE gaming spin on Arch Linux." },
-            { "image": "/ISOs/Desktop/gentoo-livegui-amd64-20250429T205022Z.iso",               "tip": "Gentoo: source‑based distro for compile‑time customization." },
-            { "image": "/ISOs/Desktop/kubuntu-25.04-desktop-amd64.iso",                         "tip": "Kubuntu: Ubuntu with KDE Plasma desktop." },
-            { "image": "/ISOs/Desktop/linuxmint-22.1-cinnamon-64bit.iso",                       "tip": "Linux Mint: user‑friendly Cinnamon desktop on Ubuntu LTS." },
-            { "image": "/ISOs/Desktop/manjaro-kde-25.0.0-250414-linux612.iso",                  "tip": "Manjaro KDE: Arch‑based with focus on user-friendliness." },
-            { "image": "/ISOs/Desktop/nixos-gnome-24.11.717738.iso",                            "tip": "NixOS GNOME: immutable, declarative with with atomic upgrades." },
-            { "image": "/ISOs/Desktop/nixos-plasma6-24.11.717738.iso",                          "tip": "NixOS KDE: immutable, declarative with with atomic upgrades." },
-            { "image": "/ISOs/Desktop/Nobara-41-Official-2025-02-20.iso",                       "tip": "Nobara: Fedora‑based spin with gaming enhancements in KDE." },
-            { "image": "/ISOs/Desktop/openSUSE-Tumbleweed-20250505.iso",                        "tip": "OpenSUSE Tumbleweed: cutting‑edge rolling‑release distro." },
-            { "image": "/ISOs/Desktop/pop-os_22.04_amd64_intel_52.iso",                         "tip": "Pop!_OS: Ubuntu‑based, user‑friendly COSMIC desktop." },
-            { "image": "/ISOs/Desktop/ubuntu-25.04-desktop-amd64.iso",                          "tip": "Ubuntu: user‑friendly GNOME desktop on a stable Debian base." },
-            { "image": "/ISOs/Desktop/Zorin-OS-17.3-Core-64-bit-r1.iso",                        "tip": "Zorin OS: Windows‑style layout for easy migration." },
-
-            { "image": "/ISOs/Enterprise/AlmaLinux-9.5-x86_64-dvd.iso",                         "tip": "AlmaLinux: community‑driven RHEL rebuild." },
-            { "image": "/ISOs/Enterprise/alpine-extended-3.21.3-x86_64.iso",                    "tip": "Alpine Linux: minimal, security‑focused base for servers." },
-            { "image": "/ISOs/Enterprise/CentOS-Stream-10-latest-x86_64-dvd1.iso",              "tip": "CentOS Stream: preview of next RHEL minor release." },
-            { "image": "/ISOs/Enterprise/Fedora-Server-dvd-x86_64-42-1.1.iso",                  "tip": "Fedora Server: latest upstream RHEL server technologies." },
-            { "image": "/ISOs/Enterprise/openSUSE-Leap-15.6-DVD-x86_64-Build710.3-Media.iso",   "tip": "OpenSUSE Leap: enterprise‑grade SUSE source." },
-            { "image": "/ISOs/Enterprise/OracleLinux-R9-U5-x86_64-dvd.iso",                     "tip": "Oracle Linux: RHEL‑compatible with UEK option." },
-            { "image": "/ISOs/Enterprise/Rocky-9.5-x86_64-dvd.iso",                             "tip": "Rocky Linux: community RHEL clone by CentOS founder." },
-            { "image": "/ISOs/Enterprise/ubuntu-25.04-live-server-amd64.iso",                   "tip": "Ubuntu Server: easy‑to‑use Debian‑based server OS." },
-
-            { "image": "/ISOs/Handheld/bazzite-deck-stable-amd64.iso",                          "tip": "Bazzite Deck: immutable Fedora‑based Steam Deck spin." },
-            { "image": "/ISOs/Handheld/cachyos-handheld-linux-250422.iso",                      "tip": "CachyOS Handheld: Arch‑based optimized for handheld." },
-            { "image": "/ISOs/Handheld/chimeraos-2025.02.13-x86_64.iso",                        "tip": "ChimeraOS: immutable console‑like gaming OS on GNOME." },
-            { "image": "/ISOs/Handheld/holoiso_rel_snapshot20240603.iso",                       "tip": "HoloISO: immutable close-to-official SteamOS." },
-            { "image": "/ISOs/Handheld/Nobara-41-Steam-HTPC-2025-02-20.iso",                    "tip": "Nobara HTPC: Fedora spin optimized for Steam." },
-
-            { "image": "/ISOs/Security/blackarch-linux-slim-2023.05.01-x86_64.iso",             "tip": "BlackArch: Arch‑based pentesting toolkit." },
-            { "image": "/ISOs/Security/kali-linux-2025.1c-live-amd64.iso",                      "tip": "Kali Linux: Debian‑based penetration testing OS." },
-            { "image": "/ISOs/Security/Parrot-security-6.3.2_amd64.iso",                        "tip": "Parrot Security: forensics and pentesting suite." },
-            { "image": "/ISOs/Security/tails-amd64-6.15.iso",                                   "tip": "Tails: privacy‑focused live OS routing via Tor." },
-
-            { "image": "/ISOs/Storage/EasyNAS.ix86-1.1.2-0.install.iso",                        "tip": "EasyNAS: lightweight openSUSE‑based NAS with web interface." },
-            { "image": "/ISOs/Storage/openmediavault-6.x-amd64.iso",                            "tip": "OpenMediaVault: Debian‑based NAS with web UI and plugins." },
-            { "image": "/ISOs/Storage/TrueNAS-13.0-U6.7.iso",                                   "tip": "TrueNAS CORE: FreeBSD NAS/SAN with web interface." },
-            { "image": "/ISOs/Storage/TrueNAS-SCALE-25.04.0.iso",                               "tip": "TrueNAS SCALE: Linux‑based scale‑out storage." },
-
-            { "image": "/ISOs/Utilities/clonezilla-live-20250504-plucky-amd64.iso",             "tip": "Clonezilla Live: partition and disk imaging/cloning program." },
-            { "image": "/ISOs/Utilities/gparted-live-1.7.0-1-amd64.iso",                        "tip": "GParted Live: live partition editor GUI." },
-            { "image": "/ISOs/Utilities/HBCD_PE_x64.iso",                                       "tip": "Hiren’s BootCD PE: Windows PE with hardware diagnostics." },
-            { "image": "/ISOs/Utilities/mt86plus_7.20_64.iso",                                  "tip": "Memtest86+: memory diagnostics for RAM testing." },
-            { "image": "/ISOs/Utilities/systemrescue-12.00-amd64.iso",                          "tip": "SystemRescue: emergency rescue and recovery toolkit." },
-            { "image": "/ISOs/Utilities/ubcd539.iso",                                           "tip": "Ultimate Boot CD: hardware diagnostics and system tools." },
-
-            { "image": "/ISOs/Windows/tiny10-x64-23h2.iso",                                     "tip": "Tiny10: stripped‑down Windows 10 for legacy hardware." },
-            { "image": "/ISOs/Windows/tiny11-2311-x64.iso",                                     "tip": "Tiny11: lightweight Windows 11 build for modern systems." }
+    "menu_tip":{
+        "tips":[
+            {
+                "image": "/ISOs/Desktop/antiX-23.2_x64-full.iso",
+                "tip": "AntiX: ultra‑light Debian desktop for old hardware."
+            },
+            {
+                "image": "/ISOs/Desktop/archlinux-2025.05.01-x86_64.iso",
+                "tip": "Arch Linux: DIY rolling release with pacman and AUR."
+            },
+            {
+                "image": "/ISOs/Desktop/cachyos-desktop-linux-250422.iso",
+                "tip": "CachyOS Desktop: Arch‑based optimized for performance."
+            },
+            {
+                "image": "/ISOs/Desktop/debian-12.10.0-amd64-DVD-1.iso",
+                "tip": "Debian 12: stable, universal base for desktop and server."
+            },
+            {
+                "image": "/ISOs/Desktop/EndeavourOS_Mercury-Neo-2025.03.19.iso",
+                "tip": "EndeavourOS: approachable installer for Arch beginners."
+            },
+            {
+                "image": "/ISOs/Desktop/Fedora-KDE-Desktop-Live-x86_64-42-1.1.iso",
+                "tip": "Fedora KDE: upstream source for Red Hat Enterprise Linux."
+            },
+            {
+                "image": "/ISOs/Desktop/Fedora-Workstation-Live-x86_64-42-1.1.iso",
+                "tip": "Fedora GNOME: upstream source for Red Hat Enterprise Linux."
+            },
+            {
+                "image": "/ISOs/Desktop/garuda-hyprland-linux-zen-250308.iso",
+                "tip": "Garuda Hyprland: Dynamic tiling gaming spin on Arch Linux."
+            },
+            {
+                "image": "/ISOs/Desktop/garuda-mokka-linux-zen-250308.iso",
+                "tip": "Garuda Mokka: KDE gaming spin on Arch Linux."
+            },
+            {
+                "image": "/ISOs/Desktop/gentoo-livegui-amd64-20250429T205022Z.iso",
+                "tip": "Gentoo: source‑based distro for compile‑time customization."
+            },
+            {
+                "image": "/ISOs/Desktop/kubuntu-25.04-desktop-amd64.iso",
+                "tip": "Kubuntu: Ubuntu with KDE Plasma desktop."
+            },
+            {
+                "image": "/ISOs/Desktop/linuxmint-22.1-cinnamon-64bit.iso",
+                "tip": "Linux Mint: user‑friendly Cinnamon desktop on Ubuntu LTS."
+            },
+            {
+                "image": "/ISOs/Desktop/manjaro-kde-25.0.0-250414-linux612.iso",
+                "tip": "Manjaro KDE: Arch‑based with focus on user-friendliness."
+            },
+            {
+                "image": "/ISOs/Desktop/nixos-gnome-24.11.717738.iso",
+                "tip": "NixOS GNOME: immutable, declarative with with atomic upgrades."
+            },
+            {
+                "image": "/ISOs/Desktop/nixos-plasma6-24.11.717738.iso",
+                "tip": "NixOS KDE: immutable, declarative with with atomic upgrades."
+            },
+            {
+                "image": "/ISOs/Desktop/Nobara-41-Official-2025-02-20.iso",
+                "tip": "Nobara: Fedora‑based spin with gaming enhancements in KDE."
+            },
+            {
+                "image": "/ISOs/Desktop/openSUSE-Tumbleweed-20250505.iso",
+                "tip": "OpenSUSE Tumbleweed: cutting‑edge rolling‑release distro."
+            },
+            {
+                "image": "/ISOs/Desktop/pop-os_22.04_amd64_intel_52.iso",
+                "tip": "Pop!_OS: Ubuntu‑based, user‑friendly COSMIC desktop."
+            },
+            {
+                "image": "/ISOs/Desktop/ubuntu-25.04-desktop-amd64.iso",
+                "tip": "Ubuntu: user‑friendly GNOME desktop on a stable Debian base."
+            },
+            {
+                "image": "/ISOs/Desktop/Zorin-OS-17.3-Core-64-bit-r1.iso",
+                "tip": "Zorin OS: Windows‑style layout for easy migration."
+            },
+            {
+                "image": "/ISOs/Enterprise/AlmaLinux-9.5-x86_64-dvd.iso",
+                "tip": "AlmaLinux: community‑driven RHEL rebuild."
+            },
+            {
+                "image": "/ISOs/Enterprise/alpine-extended-3.21.3-x86_64.iso",
+                "tip": "Alpine Linux: minimal, security‑focused base for servers."
+            },
+            {
+                "image": "/ISOs/Enterprise/CentOS-Stream-10-latest-x86_64-dvd1.iso",
+                "tip": "CentOS Stream: preview of next RHEL minor release."
+            },
+            {
+                "image": "/ISOs/Enterprise/Fedora-Server-dvd-x86_64-42-1.1.iso",
+                "tip": "Fedora Server: latest upstream RHEL server technologies."
+            },
+            {
+                "image": "/ISOs/Enterprise/openSUSE-Leap-15.6-DVD-x86_64-Build710.3-Media.iso",
+                "tip": "OpenSUSE Leap: enterprise‑grade SUSE source."
+            },
+            {
+                "image": "/ISOs/Enterprise/OracleLinux-R9-U5-x86_64-dvd.iso",
+                "tip": "Oracle Linux: RHEL‑compatible with UEK option."
+            },
+            {
+                "image": "/ISOs/Enterprise/Rocky-9.5-x86_64-dvd.iso",
+                "tip": "Rocky Linux: community RHEL clone by CentOS founder."
+            },
+            {
+                "image": "/ISOs/Enterprise/ubuntu-25.04-live-server-amd64.iso",
+                "tip": "Ubuntu Server: easy‑to‑use Debian‑based server OS."
+            },
+            {
+                "image": "/ISOs/Handheld/bazzite-deck-stable-amd64.iso",
+                "tip": "Bazzite Deck: immutable Fedora‑based Steam Deck spin."
+            },
+            {
+                "image": "/ISOs/Handheld/cachyos-handheld-linux-250422.iso",
+                "tip": "CachyOS Handheld: Arch‑based optimized for handheld."
+            },
+            {
+                "image": "/ISOs/Handheld/chimeraos-2025.02.13-x86_64.iso",
+                "tip": "ChimeraOS: immutable console‑like gaming OS on GNOME."
+            },
+            {
+                "image": "/ISOs/Handheld/holoiso_rel_snapshot20240603.iso",
+                "tip": "HoloISO: immutable close-to-official SteamOS."
+            },
+            {
+                "image": "/ISOs/Handheld/Nobara-41-Steam-HTPC-2025-02-20.iso",
+                "tip": "Nobara HTPC: Fedora spin optimized for Steam."
+            },
+            {
+                "image": "/ISOs/Security/blackarch-linux-slim-2023.05.01-x86_64.iso",
+                "tip": "BlackArch: Arch‑based pentesting toolkit."
+            },
+            {
+                "image": "/ISOs/Security/kali-linux-2025.1c-live-amd64.iso",
+                "tip": "Kali Linux: Debian‑based penetration testing OS."
+            },
+            {
+                "image": "/ISOs/Security/Parrot-security-6.3.2_amd64.iso",
+                "tip": "Parrot Security: forensics and pentesting suite."
+            },
+            {
+                "image": "/ISOs/Security/tails-amd64-6.15.iso",
+                "tip": "Tails: privacy‑focused live OS routing via Tor."
+            },
+            {
+                "image": "/ISOs/Storage/EasyNAS.ix86-1.1.2-0.install.iso",
+                "tip": "EasyNAS: lightweight openSUSE‑based NAS with web interface."
+            },
+            {
+                "image": "/ISOs/Storage/openmediavault_7.4.17-amd64.iso",
+                "tip": "OpenMediaVault: Debian‑based NAS with web UI and plugins."
+            },
+            {
+                "image": "/ISOs/Storage/TrueNAS-13.0-U6.7.iso",
+                "tip": "TrueNAS CORE: FreeBSD NAS/SAN with web interface."
+            },
+            {
+                "image": "/ISOs/Storage/TrueNAS-SCALE-25.04.0.iso",
+                "tip": "TrueNAS SCALE: Linux‑based scale‑out storage."
+            },
+            {
+                "image": "/ISOs/Utilities/clonezilla-live-20250504-plucky-amd64.iso",
+                "tip": "Clonezilla Live: partition and disk imaging/cloning program."
+            },
+            {
+                "image": "/ISOs/Utilities/gparted-live-1.7.0-1-amd64.iso",
+                "tip": "GParted Live: live partition editor GUI."
+            },
+            {
+                "image": "/ISOs/Utilities/HBCD_PE_x64.iso",
+                "tip": "Hiren’s BootCD PE: Windows PE with hardware diagnostics."
+            },
+            {
+                "image": "/ISOs/Utilities/mt86plus_7.20_64.iso",
+                "tip": "Memtest86+: memory diagnostics for RAM testing."
+            },
+            {
+                "image": "/ISOs/Utilities/systemrescue-12.00-amd64.iso",
+                "tip": "SystemRescue: emergency rescue and recovery toolkit."
+            },
+            {
+                "image": "/ISOs/Utilities/ubcd539.iso",
+                "tip": "Ultimate Boot CD: hardware diagnostics and system tools."
+            },
+            {
+                "image": "/ISOs/Windows/tiny10-x64-23h2.iso",
+                "tip": "Tiny10: stripped‑down Windows 10 for legacy hardware."
+            },
+            {
+                "image": "/ISOs/Windows/tiny11-2311-x64.iso",
+                "tip": "Tiny11: lightweight Windows 11 build for modern systems."
+            }
         ]
     },
     "menu_class":[
-
-        { "key": "antiX",               "class": "antix" },
-        { "key": "archlinux",           "class": "arch" },
-        { "key": "cachyos",             "class": "cachyos" },
-        { "key": "debian",              "class": "debian" },
-        { "key": "EndeavourOS",         "class": "endeavouros" },
-        { "key": "Fedora",              "class": "fedora" },
-        { "key": "garuda",              "class": "garuda" },
-        { "key": "gentoo",              "class": "gentoo" },
-        { "key": "kubuntu",             "class": "kubuntu" },
-        { "key": "linuxmint",           "class": "linuxmint" },
-        { "key": "manjaro",             "class": "manjaro" },
-        { "key": "nixos",               "class": "nixos" },
-        { "key": "Nobara",              "class": "nobara" },
-        { "key": "openSUSE",            "class": "opensuse" },
-        { "key": "pop-os",              "class": "pop-os" },
-        { "key": "ubuntu",              "class": "ubuntu" },
-        { "key": "Zorin-OS",            "class": "zorin" },
-
-        { "key": "AlmaLinux",           "class": "alma" },
-        { "key": "alpine",              "class": "alpine" },
-        { "key": "CentOS",              "class": "centos" },
-        { "key": "Oracle",              "class": "redhat" },
-        { "key": "Rocky",               "class": "rocky" },
-
-        { "key": "bazzite",             "class": "bazzite" },
-        { "key": "chimeraos",           "class": "steamos" },
-        { "key": "holoiso",             "class": "steamos" },
-
-        { "key": "blackarch",           "class": "arch" },
-        { "key": "kali",                "class": "kali" },
-        { "key": "Parrot",              "class": "parrot" },
-        { "key": "tails",               "class": "tails" },
-
-        { "key": "openmediavault",      "class": "openmediavault" },
-        { "key": "TrueNAS",             "class": "truenas" },
-
-        { "key": "clonezilla",          "class": "efi" },
-        { "key": "gparted",             "class": "efi" },
-        { "key": "mt86plus",            "class": "efi" },
-        { "key": "systemrescue",        "class": "systemrescue" },
-
-        { "key": "tiny10",              "class": "windows" },
-        { "key": "tiny11",              "class": "windows11" },
-
-        { "dir": "/ISOs/Desktop",       "class": "arch" },
-        { "dir": "/ISOs/Enterprise",    "class": "redhat" },
-        { "dir": "/ISOs/Storage",       "class": "openmediavault" },
-        { "dir": "/ISOs/Security",      "class": "parrot" },
-        { "dir": "/ISOs/Handheld",      "class": "steamos" },
-        { "dir": "/ISOs/Utilities",     "class": "efi" },
-        { "dir": "/ISOs/Windows",       "class": "windows" },
-        { "dir": "/ISOs",               "class": "linux" }
+        {
+            "key": "antiX",
+            "class": "antix"
+        },
+        {
+            "key": "archlinux",
+            "class": "arch"
+        },
+        {
+            "key": "cachyos",
+            "class": "cachyos"
+        },
+        {
+            "key": "debian",
+            "class": "debian"
+        },
+        {
+            "key": "EndeavourOS",
+            "class": "endeavouros"
+        },
+        {
+            "key": "Fedora",
+            "class": "fedora"
+        },
+        {
+            "key": "garuda",
+            "class": "garuda"
+        },
+        {
+            "key": "gentoo",
+            "class": "gentoo"
+        },
+        {
+            "key": "kubuntu",
+            "class": "kubuntu"
+        },
+        {
+            "key": "linuxmint",
+            "class": "linuxmint"
+        },
+        {
+            "key": "manjaro",
+            "class": "manjaro"
+        },
+        {
+            "key": "nixos",
+            "class": "nixos"
+        },
+        {
+            "key": "Nobara",
+            "class": "nobara"
+        },
+        {
+            "key": "openSUSE",
+            "class": "opensuse"
+        },
+        {
+            "key": "pop-os",
+            "class": "pop-os"
+        },
+        {
+            "key": "ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "key": "Zorin-OS",
+            "class": "zorin"
+        },
+        {
+            "key": "AlmaLinux",
+            "class": "alma"
+        },
+        {
+            "key": "alpine",
+            "class": "alpine"
+        },
+        {
+            "key": "CentOS",
+            "class": "centos"
+        },
+        {
+            "key": "Oracle",
+            "class": "redhat"
+        },
+        {
+            "key": "Rocky",
+            "class": "rocky"
+        },
+        {
+            "key": "bazzite",
+            "class": "bazzite"
+        },
+        {
+            "key": "chimeraos",
+            "class": "steamos"
+        },
+        {
+            "key": "holoiso",
+            "class": "steamos"
+        },
+        {
+            "key": "blackarch",
+            "class": "arch"
+        },
+        {
+            "key": "kali",
+            "class": "kali"
+        },
+        {
+            "key": "Parrot",
+            "class": "parrot"
+        },
+        {
+            "key": "tails",
+            "class": "tails"
+        },
+        {
+            "key": "openmediavault",
+            "class": "openmediavault"
+        },
+        {
+            "key": "TrueNAS",
+            "class": "truenas"
+        },
+        {
+            "key": "clonezilla",
+            "class": "efi"
+        },
+        {
+            "key": "gparted",
+            "class": "efi"
+        },
+        {
+            "key": "mt86plus",
+            "class": "efi"
+        },
+        {
+            "key": "systemrescue",
+            "class": "systemrescue"
+        },
+        {
+            "key": "tiny10",
+            "class": "windows"
+        },
+        {
+            "key": "tiny11",
+            "class": "windows11"
+        },
+        {
+            "dir": "/ISOs/Desktop",
+            "class": "arch"
+        },
+        {
+            "dir": "/ISOs/Enterprise",
+            "class": "redhat"
+        },
+        {
+            "dir": "/ISOs/Storage",
+            "class": "openmediavault"
+        },
+        {
+            "dir": "/ISOs/Security",
+            "class": "parrot"
+        },
+        {
+            "dir": "/ISOs/Handheld",
+            "class": "steamos"
+        },
+        {
+            "dir": "/ISOs/Utilities",
+            "class": "efi"
+        },
+        {
+            "dir": "/ISOs/Windows",
+            "class": "windows"
+        },
+        {
+            "dir": "/ISOs",
+            "class": "linux"
+        }
     ],
     "persistence":[
         {
