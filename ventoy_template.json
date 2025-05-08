@@ -123,7 +123,7 @@
             { "image": "/ISOs/Security/tails-amd64-6.15.iso",                                   "tip": "Tails: privacy‑focused live OS routing via Tor." },
 
             { "image": "/ISOs/Storage/EasyNAS.ix86-1.1.2-0.install.iso",                        "tip": "EasyNAS: lightweight openSUSE‑based NAS with web interface." },
-            { "image": "/ISOs/Storage/openmediavault-6.x-amd64.iso",                            "tip": "OpenMediaVault: Debian‑based NAS with web UI and plugins." },
+            { "image": "/ISOs/Storage/openmediavault_7.4.17-amd64.iso",                         "tip": "OpenMediaVault: Debian‑based NAS with web UI and plugins." },
             { "image": "/ISOs/Storage/TrueNAS-13.0-U6.7.iso",                                   "tip": "TrueNAS CORE: FreeBSD NAS/SAN with web interface." },
             { "image": "/ISOs/Storage/TrueNAS-SCALE-25.04.0.iso",                               "tip": "TrueNAS SCALE: Linux‑based scale‑out storage." },
 
