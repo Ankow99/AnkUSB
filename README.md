@@ -9,8 +9,8 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | **Desktop**             |             20 |
 | **Enterprise / Server** |              8 |
 | **Handheld / HTPC**     |              5 |
-| **Storage Appliance**   |              4 |
 | **Security / Forensics**|              4 |
+| **Storage Appliance**   |              4 |
 | **Utilities**           |              6 |
 | **Windows**             |              2 |
 | **Total Size (GiB)**    |      189.0 GiB |
