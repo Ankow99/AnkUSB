@@ -74,9 +74,10 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 ## Repository Contents
 
 - `/ISOs` directory structured by category (`Desktop`, `Enterprise`, `Handheld`, `Security`, `Storage`, `Utilities`, `Windows`)
-- List of ISO full names (for personal version control)
-- Pre‑configured `ventoy.json` with **menu aliases**, **custom menu tips**, and **theme integration**
-- Patched default Ventoy grub font `unicode.pf2` with theme's `fixedsys-regular-32.pf2`
+- `/ventoy` directory with theme and `ventoy.json` configuration
+- List of ISO full names (for personal version control): `ISOs-List.txt`
+- Pre‑configured `ventoy_template.json` with **menu aliases**, **custom menu tips**, and **theme integration**, this is supposed to be the `/ventoy/ventoy.json`, its just formatted more compactly for easier configuration.
+- Patched default Ventoy grub font `unicode.pf2` with theme's `fixedsys-regular-32.pf2`, it is meant to replace `VTOYEFI/grub/fonts/unicode.pf2`
 
 ---
 
@@ -96,7 +97,6 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 
 ## Theme Customization
 - Based on [CRT‑Amber‑GRUB‑Theme](https://github.com/Jacksaur/CRT-Amber-GRUB-Theme)  
-- Modified color palette to amber‑green glow  
 - Personalized icons for each category (desktop, server, NAS, security, utilities, Windows)  
 - Patched Ventoy’s GRUB default font so that **menu tips** render in the same pixel‑perfect style as the theme
 
@@ -104,7 +104,7 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 Every category icon (`Desktop`, `Enterprise`, `Handheld`, `Security`, `Storage`, `Utilities`, `Windows`) has been redrawn at 64×64 px to match the theme’s amber phosphor glow and ensure crisp rendering at any resolution.
 
 ### Patched Font
-The `unicode.pf2` font was patched to include the theme's `fixedsys-regular-32.pf2` used by custom menu tips, guaranteeing that tips render seamlessly in the same bitmap style as the rest of the menu.
+The `VTOYEFI/grub/fonts/unicode.pf2` font was patched to include the theme's `fixedsys-regular-32.pf2` used by custom menu tips, guaranteeing that tips render seamlessly in the same bitmap style as the rest of the menu.
 
 ---
 
