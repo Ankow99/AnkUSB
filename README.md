@@ -2,6 +2,19 @@
 
 A Ventoy‑based USB toolkit containing a curated selection of enterprise, desktop, handheld/HTPC, storage appliance, security live, and utility ISO images for quick deployment across any x86_64 machine.
 
+## Category Summary
+
+| Category                | Number of ISOs |
+|-------------------------|---------------:|
+| **Desktop**             |             20 |
+| **Enterprise / Server** |              8 |
+| **Handheld / HTPC**     |              5 |
+| **Storage Appliance**   |              4 |
+| **Security / Forensics**|              4 |
+| **Utilities**           |              6 |
+| **Windows**             |              2 |
+| **Total Size (GiB)**    |      189.0 GiB |
+
 ## ISO Catalog
 
 | Name                                 | Category               | Family            | DE / UI              | Purpose                  |
@@ -56,8 +69,46 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | Tiny10                               | Windows                | Microsoft         | GUI installer        | Lightweight Windows 10   |
 | Tiny11                               | Windows                | Microsoft         | GUI installer        | Lightweight Windows 11   |
 
+---
 
+## Repository Contents
 
+- `/ISOs` directory structured by category (`Desktop`, `Enterprise`, `Handheld`, `Security`, `Storage`, `Utilities`, `Windows`)
+- List of ISO full names (for personal version control)
+- Pre‑configured `ventoy.json` with **menu aliases**, **custom menu tips**, and **theme integration**
+- Patched default Ventoy grub font `unicode.pf2` with theme's `fixedsys-regular-32.pf2`
+
+---
+
+## Ventoy Setup & Customization
+
+- **Menu Aliases & Tips**  
+  - Aliases ensure consistent naming across different folder depths  
+  - Custom tips display beneath each entry using a **patched TrueType font** to match the theme
+
+- **Maximized gfxmode**
+  - Setting "gfxmode": "max" forces the highest supported framebuffer resolution on each machine, ensuring the theme’s fine details and icons are always fully visible without distortion.
+
+- **Persistence**
+  - To enable persistence in selected live distributions, the following configuration was defined in the `ventoy.json`. This allows system changes, installed packages, and user files to be retained across reboots. Persistence files are kept under the `/Persistence` directory.
+
+---
+
+## Theme Customization
+- Based on [CRT‑Amber‑GRUB‑Theme](https://github.com/Jacksaur/CRT-Amber-GRUB-Theme)  
+- Modified color palette to amber‑green glow  
+- Personalized icons for each category (desktop, server, NAS, security, utilities, Windows)  
+- Patched Ventoy’s GRUB default font so that **menu tips** render in the same pixel‑perfect style as the theme
+
+### Redrawn Icons
+Every category icon (`Desktop`, `Enterprise`, `Handheld`, `Security`, `Storage`, `Utilities`, `Windows`) has been redrawn at 64×64 px to match the theme’s amber phosphor glow and ensure crisp rendering at any resolution.
+
+### Patched Font
+The `unicode.pf2` font was patched to include the theme's `fixedsys-regular-32.pf2` used by custom menu tips, guaranteeing that tips render seamlessly in the same bitmap style as the rest of the menu.
+
+---
+
+*Feel free to tweak the colors, icons, or menu ordering in `ventoy.json` to suit your workflow!*
 
 
 
