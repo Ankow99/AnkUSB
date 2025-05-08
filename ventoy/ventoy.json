@@ -556,6 +556,10 @@
             "class": "tails"
         },
         {
+            "key": "EasyNAS",
+            "class": "openmediavault"
+        },
+        {
             "key": "openmediavault",
             "class": "openmediavault"
         },
@@ -572,12 +576,20 @@
             "class": "efi"
         },
         {
+            "key": "HBCD",
+            "class": "efi"
+        },
+        {
             "key": "mt86plus",
             "class": "efi"
         },
         {
             "key": "systemrescue",
             "class": "systemrescue"
+        },
+        {
+            "key": "ubcd",
+            "class": "efi"
         },
         {
             "key": "tiny10",
