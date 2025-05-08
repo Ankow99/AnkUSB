@@ -13,7 +13,8 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | **Storage Appliance**   |              4 |
 | **Utilities**           |              6 |
 | **Windows**             |              2 |
-| **Total Size (GiB)**    |      189.0 GiB |
+| **Total ISOs**          |             49 |
+| **Total Size (GiB)**    |      184.2 GiB |
 
 ## ISO Catalog
 
