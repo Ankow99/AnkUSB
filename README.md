@@ -13,6 +13,7 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | EndeavourOS                          | Desktop                | Arch              | Multiple             | User‑friendly Arch spin  |
 | Fedora KDE                           | Desktop                | Fedora/RHEL       | KDE Plasma           | Upstream source of RHEL  |
 | Fedora Workstation                   | Desktop                | Fedora/RHEL       | GNOME                | Upstream source of RHEL  |
+| Garuda Hyprland                      | Desktop                | Arch              | Hyprland             | Gaming‑optimized desktop |
 | Garuda Mokka                         | Desktop                | Arch              | KDE Plasma           | Gaming‑optimized desktop |
 | Gentoo                               | Desktop                | Gentoo            | XFCE                 | Source‑based desktop     |
 | Kubuntu                              | Desktop                | Ubuntu            | KDE Plasma           | General‑purpose desktop  |
