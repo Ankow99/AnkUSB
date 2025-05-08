@@ -10,7 +10,7 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | Arch Linux                           | Desktop                | Arch              | None (CLI installer) | DIY rolling desktop      |
 | CachyOS                              | Desktop                | Arch              | Multiple             | Gaming‑optimized desktop |
 | Debian                               | Desktop                | Debian            | GNOME                | Universal desktop/server |
-| EndeavourOS                          | Desktop                | Arch              | Xfce                 | User‑friendly Arch spin  |
+| EndeavourOS                          | Desktop                | Arch              | Multiple             | User‑friendly Arch spin  |
 | Fedora KDE                           | Desktop                | Fedora/RHEL       | KDE Plasma           | Upstream source of RHEL  |
 | Fedora Workstation                   | Desktop                | Fedora/RHEL       | GNOME                | Upstream source of RHEL  |
 | Garuda Mokka                         | Desktop                | Arch              | KDE Plasma           | Gaming‑optimized desktop |
@@ -23,13 +23,14 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | Pop!_OS                              | Desktop                | Ubuntu            | COSMIC (GNOME fork)  | General‑purpose desktop  |
 | Zorin OS                             | Desktop                | Ubuntu            | Zorin Desktop        | Windows‑like desktop     |
 | AlmaLinux                            | Enterprise / Server    | RHEL              | CLI installer        | Community RHEL rebuild   |
+| Alpine Linux                         | Enterprise / Server    | Alpine Linux      | CLI installer        | Secure minimal server    |
 | CentOS Stream                        | Enterprise / Server    | RHEL              | CLI installer        | RHEL upstream preview    |
 | Fedora Server                        | Enterprise / Server    | Fedora/RHEL       | CLI installer        | Cutting‑edge server      |
 | OpenSUSE Leap                        | Enterprise / Server    | SUSE              | CLI installer        | Enterprise SUSE server   |
 | Oracle Linux                         | Enterprise / Server    | RHEL              | CLI installer        | Oracle enterprise server |
 | Rocky Linux                          | Enterprise / Server    | RHEL              | CLI installer        | Community RHEL rebuild   |
 | Ubuntu Server                        | Enterprise / Server    | Ubuntu            | CLI installer        | General‑purpose server   |
-| Bazzite                              | Handheld / HTPC        | Arch              | KDE Plasma/Gamescope | Steam Deck desktop spin  |
+| Bazzite                              | Handheld / HTPC        | Arch              | KDE Plasma/Gamescope | Steam Deck Fedora spin   |
 | CachyOS Handheld                     | Handheld / HTPC        | Arch              | KDE Plasma/Gamescope | Mobile / Handheld OS     |
 | ChimeraOS                            | Handheld / HTPC        | Arch              | Customized GNOME     | Gaming console OS        |
 | HoloISO                              | Handheld / HTPC        | Arch              | KDE Plasma/Gamescope | Close-to-official SteamOS |
@@ -44,5 +45,7 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | GParted Live                         | Utilities              | Debian            | GUI (GTK)            | Partition editor         |
 | MT86+                                | Utilities              | Independent       | Text UI              | Master boot record repair|
 | SystemRescue                         | Utilities              | Arch/Debian       | CLI / GUI            | System rescue & recovery |
+| Tiny10                               | Windows                | Microsoft         | GUI installer        | Lightweight Windows 10   |
+| Tiny11                               | Windows                | Microsoft         | GUI installer        | Lightweight Windows 11   |
 
 
