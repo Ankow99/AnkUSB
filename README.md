@@ -11,6 +11,8 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | CachyOS                              | Desktop                | Arch              | Multiple             | Gaming‑optimized desktop |
 | Debian                               | Desktop                | Debian            | GNOME                | Universal desktop/server |
 | EndeavourOS                          | Desktop                | Arch              | Xfce                 | User‑friendly Arch spin  |
+| Fedora KDE                           | Desktop                | Fedora/RHEL       | KDE Plasma           | Upstream source of RHEL  |
+| Fedora Workstation                   | Desktop                | Fedora/RHEL       | GNOME                | Upstream source of RHEL  |
 | Garuda Mokka                         | Desktop                | Arch              | KDE Plasma           | Gaming‑optimized desktop |
 | Kubuntu                              | Desktop                | Ubuntu            | KDE Plasma           | General‑purpose desktop  |
 | Linux Mint Cinnamon                  | Desktop                | Ubuntu/Debian     | Cinnamon             | General‑purpose desktop  |
