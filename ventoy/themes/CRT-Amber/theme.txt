@@ -1,0 +1,89 @@
+# Global properties
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Fixedsys Regular 32"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+menu-tip-left: "16%"
+menu-tip-top: "80%"
+menu-tip-color: "#B36400"
+
+# Line 1
++ label {
+  left = 0
+  top = 8%
+  width = 100%
+  align = "center"
+  text = "ANKOW'S UNIFIED BOOTLOADER VERSION 2.0"
+  color = "#B36400"
+  font = "Fixedsys Regular 32"
+}
+
+# Line 2
++ label {
+  left = 0
+  top = 8%+30 
+  width = 100%
+  align = "center"
+  text = "PLEASE SELECT OPERATING SYSTEM TO BOOT:"
+  color = "#B36400"
+  font = "Fixedsys Regular 32"
+}
+
+# Line 3
++ label {
+  left = 0
+  top = 8%+60
+  width = 100%
+  align = "center"
+  text = "-Display 1-"
+  color = "#B36400"
+  font = "Fixedsys Regular 32"
+}
+
+# Boot menu
++ boot_menu {
+  left = 15%
+  top = 20%
+  width = 70%
+  height = 60%
+  item_font = "Fixedsys Regular 32"
+  item_color = "#F28000"
+  selected_item_color = "#ffffff"
+  item_height = 48
+  item_spacing = 8
+  item_icon_space = 12
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Countdown message
++ label {
+  left = 0
+  top = 88%-70
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  text = "STANDBY FOR AUTOMATIC BOOT IN %d"
+  color = "#B36400"
+  font = "Fixedsys Regular 32"
+}
+
+# Navigation keys hint 
++ label {
+  left = 0
+  top = 88%-30
+  width = 100%
+  align = "center"
+  # EN
+  text = "↑/↓ - NAVIGATE     C - COMMAND     ↲ - CONFIRM"
+  color = "#B36400"
+  font = "Fixedsys Regular 32"
+}
+
