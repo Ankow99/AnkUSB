@@ -90,7 +90,7 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
   - Setting "gfxmode": "max" forces the highest supported framebuffer resolution on each machine, ensuring the theme’s fine details and icons are always fully visible without distortion.
 
 - **Persistence**
-  - To enable persistence in selected live distributions, the following configuration was defined in the `ventoy.json`. This allows system changes, installed packages, and user files to be retained across reboots. Persistence files are kept under the `/Persistence` directory.
+  - To enable persistence in selected live distributions, the following configuration was defined in the `ventoy.json`. This allows system changes, installed packages, and user files to be retained across reboots. Persistence files are kept under the `/Persistence` directory and obtained from [Ventoy backend releases](https://github.com/ventoy/backend/releases). See [Ventoy persistence plugin](https://www.ventoy.net/en/plugin_persistence.html).
 
 ---
 
