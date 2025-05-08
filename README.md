@@ -14,13 +14,16 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | Fedora KDE                           | Desktop                | Fedora/RHEL       | KDE Plasma           | Upstream source of RHEL  |
 | Fedora Workstation                   | Desktop                | Fedora/RHEL       | GNOME                | Upstream source of RHEL  |
 | Garuda Mokka                         | Desktop                | Arch              | KDE Plasma           | Gaming‑optimized desktop |
+| Gentoo                               | Desktop                | Gentoo            | XFCE                 | Source‑based desktop     |
 | Kubuntu                              | Desktop                | Ubuntu            | KDE Plasma           | General‑purpose desktop  |
 | Linux Mint Cinnamon                  | Desktop                | Ubuntu/Debian     | Cinnamon             | General‑purpose desktop  |
 | Manjaro KDE                          | Desktop                | Arch              | KDE Plasma           | User‑friendly Arch spin  |
 | NixOS GNOME                          | Desktop                | NixOS             | GNOME                | Declarative desktop      |
 | NixOS KDE                            | Desktop                | NixOS             | KDE Plasma           | Declarative desktop      |
+| Nobara                               | Desktop                | Fedora/RHEL       | KDE Plasma           | Fedora optimized for gaming |
 | OpenSUSE Tumbleweed                  | Desktop                | SUSE              | Multiple             | Rolling‑release desktop  |
 | Pop!_OS                              | Desktop                | Ubuntu            | COSMIC (GNOME fork)  | General‑purpose desktop  |
+| Ubuntu                               | Desktop                | Ubuntu            | GNOME                | General‑purpose desktop  |
 | Zorin OS                             | Desktop                | Ubuntu            | Zorin Desktop        | Windows‑like desktop     |
 | AlmaLinux                            | Enterprise / Server    | RHEL              | CLI installer        | Community RHEL rebuild   |
 | Alpine Linux                         | Enterprise / Server    | Alpine Linux      | CLI installer        | Secure minimal server    |
