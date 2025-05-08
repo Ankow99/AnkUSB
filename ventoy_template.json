@@ -173,13 +173,16 @@
         { "key": "Parrot",              "class": "parrot" },
         { "key": "tails",               "class": "tails" },
 
+        { "key": "EasyNAS",             "class": "openmediavault" },
         { "key": "openmediavault",      "class": "openmediavault" },
         { "key": "TrueNAS",             "class": "truenas" },
 
         { "key": "clonezilla",          "class": "efi" },
         { "key": "gparted",             "class": "efi" },
+        { "key": "HBCD",                "class": "efi" },
         { "key": "mt86plus",            "class": "efi" },
         { "key": "systemrescue",        "class": "systemrescue" },
+        { "key": "ubcd",                "class": "efi" },
 
         { "key": "tiny10",              "class": "windows" },
         { "key": "tiny11",              "class": "windows11" },
