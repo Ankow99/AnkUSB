@@ -42,13 +42,23 @@ A Ventoy‑based USB toolkit containing a curated selection of enterprise, deskt
 | Kali Linux                           | Security / Forensics   | Debian            | Xfce                 | Penetration testing      |
 | Parrot Security                      | Security / Forensics   | Debian            | MATE                 | Security forensics       |
 | Tails                                | Security / Forensics   | Debian            | GNOME                | Privacy‑focused live OS  |
-| TrueNAS CORE                         | Storage Appliance      | FreeBSD‑based     | Web UI               | NAS / SAN appliance      |
+| EasyNAS                              | Storage Appliance      | openSUSE          | Web UI               | OpenSUSE‑based NAS       |
+| OpenMediaVault                       | Storage Appliance      | Debian            | Web UI               | Debian‑based NAS         |
+| TrueNAS CORE                         | Storage Appliance      | FreeBSD‑based     | Web UI               | FreeBSD-based NAS / SAN  |
 | TrueNAS SCALE                        | Storage Appliance      | Debian            | Web UI               | Scale‑out storage        |
 | Clonezilla Live                      | Utilities              | Debian            | CLI / ncurses        | Disk cloning & imaging   |
 | GParted Live                         | Utilities              | Debian            | GUI (GTK)            | Partition editor         |
+| Hiren’s BootCD PE                    | Utilities              | Windows PE        | GUI                  | Hardware diagnostics     |
 | MT86+                                | Utilities              | Independent       | Text UI              | Master boot record repair|
 | SystemRescue                         | Utilities              | Arch/Debian       | CLI / GUI            | System rescue & recovery |
+| Ultimate Boot CD                     | Utilities              | Mixed Tools       | Text / CLI           | Hardware tests and system tools |
 | Tiny10                               | Windows                | Microsoft         | GUI installer        | Lightweight Windows 10   |
 | Tiny11                               | Windows                | Microsoft         | GUI installer        | Lightweight Windows 11   |
+
+
+
+
+
+
 
 
