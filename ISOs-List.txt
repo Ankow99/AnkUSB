@@ -1,3 +1,5 @@
+
+-------- Desktop --------
 antiX-23.2_x64-full.iso
 archlinux-2025.05.01-x86_64.iso
 cachyos-desktop-linux-250422.iso
@@ -5,8 +7,8 @@ debian-12.10.0-amd64-DVD-1.iso
 EndeavourOS_Mercury-Neo-2025.03.19.iso
 Fedora-KDE-Desktop-Live-x86_64-42-1.1.iso
 Fedora-Workstation-Live-x86_64-42-1.1.iso
-garuda-hyprland-linux-zen-250308.iso
-garuda-mokka-linux-zen-250308.iso
+garuda-hyprland-linux-zen-250308.iso (*)
+garuda-mokka-linux-zen-250308.iso (*)
 gentoo-livegui-amd64-20250429T205022Z.iso
 kubuntu-25.04-desktop-amd64.iso
 linuxmint-22.1-cinnamon-64bit.iso
@@ -19,6 +21,7 @@ pop-os_22.04_amd64_intel_52.iso
 ubuntu-25.04-desktop-amd64.iso
 Zorin-OS-17.3-Core-64-bit-r1.iso
 
+-------- Enterprise --------
 AlmaLinux-9.5-x86_64-dvd.iso
 alpine-extended-3.21.3-x86_64.iso
 CentOS-Stream-10-latest-x86_64-dvd1.iso
@@ -28,22 +31,26 @@ OracleLinux-R9-U5-x86_64-dvd.iso
 Rocky-9.5-x86_64-dvd.iso
 ubuntu-25.04-live-server-amd64.iso
 
+-------- Handheld --------
 bazzite-deck-stable-amd64.iso
 cachyos-handheld-linux-250422.iso
 chimeraos-2025.02.13-x86_64.iso
 holoiso_rel_snapshot20240603.0905.04-InstallerBuild-20240603104443-x86_64.iso (*)
 Nobara-41-Steam-HTPC-2025-02-20.iso
 
+-------- Security --------
 blackarch-linux-slim-2023.05.01-x86_64.iso
 kali-linux-2025.1c-live-amd64.iso
 Parrot-security-6.3.2_amd64.iso
 tails-amd64-6.15.iso
 
+-------- Storage --------
 EasyNAS.ix86-1.1.2-0.install.iso
 openmediavault_7.4.17-amd64.iso
 TrueNAS-13.0-U6.7.iso
 TrueNAS-SCALE-25.04.0.iso
 
+-------- Utitlities --------
 clonezilla-live-20250504-plucky-amd64.iso
 gparted-live-1.7.0-1-amd64.iso
 HBCD_PE_x64.iso
@@ -51,5 +58,9 @@ mt86plus_7.20_64.iso
 systemrescue-12.00-amd64.iso
 ubcd539.iso
 
+-------- Windows --------
 tiny10-x64-23h2.iso
 tiny11-2311-x64.iso
+
+
+(*) = Original name was altered in the USB ISO folder
