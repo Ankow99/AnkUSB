@@ -42,11 +42,11 @@
             "alias": "Fedora GNOME"
         },
         {
-            "image": "/ISOs/Desktop/garuda-hyprland-linux-zen-250308.iso",
+            "image": "/ISOs/Desktop/garuda-hyprland-linux-zen-250308_VTGRUB2.iso",
             "alias": "Garuda Hyprland"
         },
         {
-            "image": "/ISOs/Desktop/garuda-mokka-linux-zen-250308.iso",
+            "image": "/ISOs/Desktop/garuda-mokka-linux-zen-250308_VTGRUB2.iso",
             "alias": "Garuda Mokka"
         },
         {
@@ -269,11 +269,11 @@
                 "tip": "Fedora GNOME: upstream source for Red Hat Enterprise Linux."
             },
             {
-                "image": "/ISOs/Desktop/garuda-hyprland-linux-zen-250308.iso",
-                "tip": "Garuda Hyprland: Dynamic tiling gaming spin on Arch Linux."
+                "image": "/ISOs/Desktop/garuda-hyprland-linux-zen-250308_VTGRUB2.iso",
+                "tip": "Garuda Hyprland: dynamic tiling gaming spin on Arch Linux."
             },
             {
-                "image": "/ISOs/Desktop/garuda-mokka-linux-zen-250308.iso",
+                "image": "/ISOs/Desktop/garuda-mokka-linux-zen-250308_VTGRUB2.iso",
                 "tip": "Garuda Mokka: KDE gaming spin on Arch Linux."
             },
             {
