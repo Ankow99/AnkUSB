@@ -6,8 +6,13 @@ A Ventoy‑based USB toolkit preloaded with a handpicked selection of Linux dist
 
 ---
 
+
+
+
 ## Screenshots
 
+![](https://github.com/user-attachments/assets/d2a778bb-7725-4ce1-9898-7426717bf7db)
+<!--
 <p align="center">
   <div style="display: flex; gap: 8px; overflow-x: auto; padding: 4px; -webkit-overflow-scrolling: touch;">
     <img src="https://github.com/user-attachments/assets/52fc6593-703a-4873-bc65-1355133032ff" width="400" />
@@ -20,7 +25,7 @@ A Ventoy‑based USB toolkit preloaded with a handpicked selection of Linux dist
     <img src="https://github.com/user-attachments/assets/6ca99650-aff4-4d33-89ed-5bc13db212df" width="400" />
   </div>
 </p>
-
+-->
 ---
 
 ## Category Summary
