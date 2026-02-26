@@ -264,7 +264,7 @@ Simply replace the file `\VTOYEFI/grub/fonts/unicode.pf2` (on the second EFI/boo
    - `/ISOs/*` — Your downloaded ISO files.
    - `/ventoy/ventoy.json` — Ventoy's custom config.
    - `/ventoy/theme/CRT-Amber/theme.txt` — Custom CRT theme.
-   - `/ventoy/ventoy.disk.img.xz` & `/ventoy/ventoy_4k.disk.img.xz` — Legacy BIOS 137 GiB Limitation Workaround: Copy these files **first** to your ISO partition — they must reside within the first < 128 GiB of the disk to function properly.
+   - `/ventoy/ventoy.disk.img.xz` & `/ventoy/ventoy_4k.disk.img.xz` — Legacy BIOS 137 GB Limitation Workaround: Copy these files **first** to your ISO partition — they must reside within the first < 128 GiB of the disk to function properly.
 
 3. Finalize, boot, and enjoy!
    
